@@ -10,8 +10,6 @@
 
 #define CODE_GO 0x1
 
-bool pausing = true;
-bool sendSIG = false;
 pid_t child_pid;
 
 void HDL_SIG(int sig) {
